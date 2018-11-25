@@ -7,7 +7,8 @@ const mongoose = require('mongoose');
 const config = require('./config/database');
 
 // Connect To Database
-mongoose.connect(config.database);
+
+mongoose.connect('mongodb://localhost:27017/meanauth', { useNewUrlParser: true });
 
 
 // on Connection

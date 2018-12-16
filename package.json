@@ -15,13 +15,13 @@
     "jsonwebtoken": "^8.4.0",
     "mongoose": "^5.3.13",
     "passport": "*",
-    "passport-jwt": "*"
+    "passport-jwt": "*",
+    "pug": "^2.0.3"
   },
   "author": "Oleh Petraniuk",
   "license": "ISC",
   "devDependencies": {
-
     "@angular/cli": "^1.5.5",
     "angular2-flash-messages": "1.0.8"
-    }
+  }
 }
